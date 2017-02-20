@@ -1,0 +1,79 @@
+aureport/ausearch common options:
+	-if, --input <file>
+	-i, --interpret	Interpret numeric entities into text
+	--input-logs	Use the log file location from auditd.conf
+	--node <node>
+	-te, --end <date|time>
+	-ts, --start <date|time>
+
+
+aureport
+	-au, --auth		authentication attempts
+	-a, --avc		avc messages
+	-c, --config	config changes
+	-cr, --crypto	crypto events
+	-e, --event		events
+	-f, --file		files
+	-h, --host		hosts
+	-k, --key		Report audit key rules
+	-l, --login		Login report
+	-ma, --mac		Account modifications
+	-n, --anomaly	Anomaly events
+	-p, --pid		Processes
+	-r, --response	Responses to anomaly events
+	-s, --syscall	Syscalls
+	-u, --user		User report
+	-x, --executable	Executable report
+
+	--failed		event failures
+	--success		event successes
+
+	-i, --interpret	Interpret numeric entities into text
+	-t, --lo		Report start and end times for each log
+	-if, --input <file>
+	--input-logs	Use the log file location from auditd.conf
+	--node <node>
+	--summary		Summary report
+	--tty			Report tty keystrokes
+	-tm, --terminal	Terminal report
+	-ts, --start <date|time>
+	-te, --end <date|time>
+
+
+ausearch
+	-a, --event <event id>
+	-c, --comm <comm>
+	-e, --exit <exit code>
+	-f, --file <filename>
+	-ga, --gid-all <GID>
+	-ge, --gid-effective <GID>
+	-gi, --gid <GID>
+	-hn, --host <hostname>
+	-i, --interpret
+	-if, --input <filename>
+	--input-logs
+	--just-one
+	-k, --key <key>
+	-l, --line-buffered
+	-m, --message <message-type>
+	-n, --node <node>
+	-o, --object <SELinux context>
+	-p, --pid <PID>
+	-pp, --ppid <PPID>
+	-r, --raw
+	-sc, --syscall <syscall>
+	-se, --context <SELinux context>
+	--session <session ID>
+	-su, --subject <SELinux context>
+	-sv, --success <success value>
+	-te, --end <date|time>
+	-ts, --start <date|time>
+	-tm, --terminal <terminal>
+	-ua, --uid-all <UID>
+	-ue, --uid-effective <UID>
+	-ui, --uid <UID>
+	-ul, --loginuid <login-id>
+	-uu, --uuid <UUID>
+	-vm, --vm-name <guest-name>
+	-w, --word
+	-x, --executable <executable>
